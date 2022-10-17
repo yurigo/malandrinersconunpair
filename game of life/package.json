@@ -3,13 +3,20 @@
     "version": "1.0.0",
     "description": "john conway's game of life in javascript",
     "main": "index.js",
+    "type": "module",
     "scripts": {
+        "start": "node index.js",
         "test": "vitest",
-        "coverage": "vitest run --coverage"
+        "coverage": "vitest run --coverage",
+        "dev": "nodemon"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "nodemon": "^2.0.20",
         "vitest": "^0.24.3"
+    },
+    "dependencies": {
+        "log-update": "^5.0.1"
     }
 }
